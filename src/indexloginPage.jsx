@@ -14,8 +14,8 @@ function LoginPage() {
   const userContextData = useContext(UserContext);
   const { handleChange, values, handleSubmit } = useFormik({
     initialValues: {
-      username: "",
-      password: "",
+      username: "Test",
+      password: "Test1287@",
     },
     onSubmit: async (values) => {
       try {
